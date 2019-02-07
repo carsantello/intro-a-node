@@ -1,0 +1,27 @@
+{
+  "name": "intro-a-node",
+  "version": "1.0.0",
+  "description": "Este es mi primer paquete de node",
+  "main": "index.js",
+  "scripts": {
+    "cowthink":"./node_modules/.bin/cowthink",
+    "cowsay":"./node_modules/.bin/cowsay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsantello/intro-a-node.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Car Santello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsantello/intro-a-node/issues"
+  },
+  "homepage": "https://github.com/carsantello/intro-a-node#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0"
+  }
+}
