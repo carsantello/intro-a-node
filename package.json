@@ -1,11 +1,11 @@
 {
-  "name": "intro-a-node",
+  "name": "npm",
   "version": "1.0.0",
   "description": "Este es mi primer paquete de node",
   "main": "index.js",
   "scripts": {
-    "cowthink":"./node_modules/.bin/cowthink",
-    "cowsay":"./node_modules/.bin/cowsay"
+    "cowthink": "cowthink",
+    "cowsay": "cowsay"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/carsantello/intro-a-node#readme",
   "dependencies": {
     "cowsay": "^1.4.0"
-  }
+  },
+  "devDependencies": {}
 }
